@@ -13,7 +13,7 @@ turquoiseColour="\e[0;36m\033[1m"
 grayColour="\e[0;37m\033[1m"
 
 function helpPanel(){
-	echo -e "\n${endColour}${yellowColour}(${endColour}${grayColour}Hecho por ${endColour}${blueColour}djmany${endColour}${yellowColour})${endColour}${redColour}"
+	echo -e "\n${yellowColour}(${endColour}${grayColour}Hecho por ${endColour}${blueColour}djmany${endColour}${yellowColour})${endColour}${redColour}"
 	echo -e "\n${grayColour}Uso:${endColour}"
 	echo -e "\t${redColour}[-r]${endColour}${blueColour} Modo de ejecución${endColour}${yellowColour} ./update-code.sh -r /PATH ${endColour}"
 	echo -e "\t${redColour}[-h]${endColour}${blueColour} Mostrar este panel de ayuda${endColour}\n"
